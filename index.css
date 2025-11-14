@@ -14,6 +14,9 @@
 carousel-inner .carousel-item #img{
     width: 100%;
 } */
+.carousel .carousel-inner .carousel-item .carousel-caption{
+    background-color: rgba(0, green,0, 0.3);
+ }
  .mera{
     width: 20%;
     /* border: 10px solid red; */
