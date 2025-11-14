@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Commerce Website</title>
+
+  <!--  Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+
+  <!--  Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--  Your Custom CSS -->
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <!--  Navbar Start -->
+  <div class="container-fluid ">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./img/4959d2da-cb8d-41b9-9486-2b07a01861d4.jfif" id="img" alt="Logo"
+            style="height: 60px; border-radius: 8px" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Feedback</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+
+          <input class="form-control me-2 w-25" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn outline-success mx-2" id="butn" type="button" style="border: 2px solid green">
+            Signup
+          </button>
+          <button class="btn bg-success text-white" type="button">
+            Login
+          </button>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--  Navbar End -->
+
+  <!--  Carousel Start -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./img/1 slide.jfif" class="d-block w-100" alt="First Slid" style="height: 600px;">
+        <div class="carousel-caption d-none d-md-block text-dark bg-success">
+          <h2 style="color: #FFC107;">Step Into Style </h2>
+          <h4 style="color: green;">Discover the latest sneakers that blend comfort, design, and innovation for your everyday moves.</h4>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./img/apna.jfif" class="d-block w-100" alt="Second Slide" style="height: 600px;" />
+        <div class="carousel-caption d-none d-md-block text-dark">
+          <h2 style="color: #FFC107;">Run Your World </h2>
+          <h4 style="color: green;">Engineered for performance — light, responsive, and built for speed. Find your perfect running companion.</h4>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./img/mera.jfif" class="d-block w-100" alt="Third Slide"
+          style="height: 600px; object-fit: cover" />
+        <div class="carousel-caption d-none d-md-block text-dark">
+          <h2 style="color: #FFC107;">Casual Comfort</h2>
+          <h4 style="color: green;">Stay stylish and relaxed with our casual shoe collection — where comfort meets effortless fashion.</h4>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Carousel End -->
+   <marquee behavior="alternate" direction="left"  scrollamount="10">
+   <div class="mera">
+<h1>Our Latest Product</h1>
+<h3>Stylish,Elegent & Comfortable Shoes</h3>
+</div>
+</marquee>
+<div class="cards">
+<div class="card" style="width: 18rem;margin: 10px;">
+  <img src="https://shoesclub.pk/wp-content/uploads/2025/10/Nk-Zoom-Alpha-Fly-BLACK-WHITE.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">AirZoom Runner Pro</h5>
+    <p class="card-text">Lightweight running shoes engineered for speed and stability. Perfect for daily runners.</p>
+    <h4 style="color: #FFC107;margin:10px;">$12,00</h4>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;margin: 10px;">
+  <img src="https://static.dafiti.com.br/p/Nike-T%C3%AAnis-Nike-Air-Max-270-Masculino-7671-77621641-1-zoom.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Nike Air Max 270</h5>
+    <p class="card-text">Lightweight running shoes engineered for speed and stability. Perfect for daily runners.</p>
+    <h4 style="color: #FFC107;margin:10px;">$12,00</h4>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;margin: 10px;">
+  <img src="https://d16aymak0y9zsb.cloudfront.net/Sportsplus/product/1080x1080/15052024/HQ6351_1_1703765995-573695821637.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Adidas Ultraboost 22</h5>
+    <p class="card-text">Lightweight running shoes engineered for speed and stability. Perfect for daily runners.</p>
+    <h4 style="color: #FFC107;margin:10px;">$12,00</h4>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;margin: 10px;">
+  <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/398210/06/sv01/fnd/IND/fmt/png/RS-X-Heritage-Sneakers" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Puma RS-X</h5>
+    <p class="card-text">Lightweight running shoes engineered for speed and stability. Perfect for daily runners.</p>
+    <h4 style="color: #FFC107;margin:10px;">$12,00</h4>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;margin: 10px;">
+  <img src="https://www.hopkicks.pk/image/cache/catalog/2025/May-25/Arsalan-Stock/16/1-1100x1100.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">New Balance 574</h5>
+    <p class="card-text">Lightweight running shoes engineered for speed and stability. Perfect for daily runners.</p>
+    <h4 style="color: #FFC107;margin:10px;">$12,00</h4>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;margin: 10px;">
+  <img src="https://i.ebayimg.com/images/g/uGkAAOSwlHllp1KU/s-l1200.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Reebok Nano X3</h5>
+    <p class="card-text">Lightweight running shoes engineered for speed and stability. Perfect for daily runners.</p>
+    <h4 style="color: #FFC107;margin:10px;">$12,00</h4>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;margin: 10px;">
+  <img src="https://www.dtlr.com/cdn/shop/files/jordan_FD1437_20008_GS038.jpg?v=1753887755" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Jordan 1 Retro</h5>
+    <p class="card-text">Lightweight running shoes engineered for speed and stability. Perfect for daily runners.</p>
+    <h4 style="color: #FFC107;margin:10px;">$12,00</h4>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;margin: 10px;">
+  <img src="https://www.sluggerskatestore.co.uk/cdn/shop/files/converse-ctas-red-2_530x@2x.jpg?v=1720018001" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Converse Chuck Taylor High</h5>
+    <p class="card-text">Lightweight running shoes engineered for speed and stability. Perfect for daily runners.</p>
+    <h4 style="color: #FFC107;margin:10px;">$12,00</h4>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+</div>
+  <!-- ✅ Bootstrap JavaScript Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+.container-fluid .navbar-brand>#img{
+    width: 120px;
+    border-radius: 50px;
+}
+.container-fluid .navbar-brand>#img>img{
+    width: 100%;
+}
+.container-fluid {
+    background-image: linear-gradient(black,yellow);
+}
+/* carousel-inner .carousel-item{
+    height: 500px;
+}
+carousel-inner .carousel-item #img{
+    width: 100%;
+} */
+ .mera{
+    width: 20%;
+    /* border: 10px solid red; */
+ }
+ .mera>h1{
+    color: #FFC107;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    left: 50px;
+ }
+ .mera>h3{
+    color: green;
+    text-align: center;
+ }
+ .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: linear-gradient(yellow,black);
+ }
+ .cards .card{
+ position: relative;
+  width: 220px;
+  margin: 0 12px;
+  background-image: linear-gradient(yellow,black);
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  transition: transform 0.3s ease;
+  animation: bounce 0.5s infinite alternate;
+  
+  
+  
+ }
+ .cards .card>img{
+    height: 250px;
+    border-radius: 70px;
+}
+.cards .card .card-title{
+    color: blue;
+}
+ 
+.cards .card:hover {
+  transform: scale(1.05);
+}
+@keyframes bounce {
+    0%{
+        position: relative;
+        bottom: 0px;
+    }
+    100%{
+        position: relative;
+        bottom: 15px;
+    }
+}
